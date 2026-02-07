@@ -270,7 +270,7 @@
             width: 4px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             border-radius: 2px;
-            animation: wave 1s ease-in-out infinite;
+            animation: wave 10s ease-in-out infinite;
         }
 
         .wave-bar:nth-child(1) { animation-delay: 0s; }
@@ -795,7 +795,7 @@ Question: ${userMessage}`
                     border-radius: 15px;
                     cursor: pointer;
                     font-size: 14px;
-                    transition: transform 0.2s;
+                    transition: transform 0.4s;
                 `;
                 speakerBtn.onmouseover = () => speakerBtn.style.transform = 'scale(1.05)';
                 speakerBtn.onmouseout = () => speakerBtn.style.transform = 'scale(1)';
